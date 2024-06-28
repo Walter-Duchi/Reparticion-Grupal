@@ -1,0 +1,92 @@
+/* assets/style.css */
+
+/* Modo oscuro */
+body {
+  background-color: #000000; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  font-family: Arial, sans-serif;
+  line-height: 1.4; /* Reducido para texto más compacto */
+  font-size: 1.25em; /* Tamaño de letra general */
+}
+
+/* Enlaces */
+a {
+  color: lightcoral; /* Color morado para enlaces */
+}
+
+/* Estilos generales */
+#content {
+  padding: 10px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Jerarquía de títulos */
+h1 {
+  color: lightgreen; /* Color azul acero para los títulos de nivel 1 */
+  font-size: 2.5em; /* Tamaño grande */
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color: lightskyblue; /* Color naranja para los títulos de nivel 2 */
+  font-size: 2em; /* Tamaño medio */
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  color: lightseagreen; /* Color turquesa oscuro para los títulos de nivel 3 */
+  font-size: 1.75em; /* Tamaño ligeramente más pequeño */
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  color: lightsalmon; /* Color azul claro para los títulos de nivel 4 */
+  font-size: 1.5em; /* Tamaño mediano */
+  margin-bottom: 0.5em;
+}
+
+h5 {
+  color: lightblue; /* Color amarillo para los títulos de nivel 5 */
+  font-size: 1.25em; /* Tamaño pequeño */
+  margin-bottom: 0.5em;
+}
+
+h6 {
+  color: lightcyan; /* Color verde para los títulos de nivel 6 */
+  font-size: 1em; /* Tamaño más pequeño */
+  margin-bottom: 0.5em;
+}
+
+/* Listas ordenadas */
+ol {
+  padding-left: 20px;
+  margin-bottom: 1em;
+}
+
+ol li {
+  margin-bottom: 0.5em;
+}
+
+/* Listas desordenadas */
+ul {
+  padding-left: 20px;
+  margin-bottom: 1em;
+}
+
+ul li {
+  margin-bottom: 0.5em;
+}
+
+/* Negritas */
+strong {
+  color: lightslategray; /* Color dorado para el texto en negrita */
+}
+
+/* Párrafos */
+p {
+  margin-bottom: 0.5em; /* Ajuste el espacio entre párrafos según sea necesario */
+}
+
+/* Otros elementos */
+/* Define el tamaño de letra para otros elementos según sea necesario */
