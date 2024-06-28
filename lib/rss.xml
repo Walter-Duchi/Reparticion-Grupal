@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apuntes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Apuntes</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 28 Jun 2024 00:57:03 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 28 Jun 2024 00:57:03 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Integrantes]]></title><description><![CDATA[ 
+ <br><br>
+<br>Duchi Rivera Walter Alejandro 
+<br>Sánchez Albarracín Luccy Verónica 
+<br>Celdo Crespo Jonnathan David 
+<br><br> Una aplicación de gestión de proyectos que permita a los usuarios organizar y realizar proyectos<br><br><br>
+<br>Diagrama de Arquitectura: Diseña un diagrama de la arquitectura de la aplicación que incluya los componentes principales como la base de datos, lógica de negocio, y la interfaz de usuario.
+<br>MVC: Utiliza el patrón de diseño Modelo-Vista-Controlador (MVC) para organizar tu código.
+<br>Diseño de la Arquitectura: Incluye diagramas UML y explicaciones detalladas de los componentes.
+<br><br><br>
+<br>Bases de Datos: Usa JDBC para conectar tu aplicación Java a la base de datos.
+<br><br>
+<br>La aplicación debe permitir a los usuarios registrarse y crear cuentas.
+
+<br>Usa clases para manejar usuarios, sesiones y perfiles.
+<br>Asegúrate de implementar validaciones y manejo seguro de contraseñas.
+
+
+<br>Los usuarios deben poder iniciar sesión y ver su perfil.
+<br>Los usuarios deben poder publicar mensajes en un foro.
+
+<br>Crea clases para los mensajes y foros.
+<br>Implementa métodos para crear, leer y mostrar mensajes.
+
+
+<br>Los usuarios deben poder ver los mensajes publicados por otros usuarios.
+<br>Se debe aplicar los conceptos de variables, tipos de datos, estructuras de control, funciones y módulos.
+
+<br>Utiliza estructuras de control (if, for, while) donde sea necesario.
+<br>Divide el código en módulos y funciones reutilizables.
+
+
+<br>El código debe ser seguro y tolerante a fallos.
+
+<br>Validación de Datos: Asegúrate de validar todos los inputs de los usuarios.
+<br>Manejo de Excepciones: Implementa un manejo adecuado de excepciones para evitar que la aplicación se caiga.
+
+
+<br>La aplicación web debe estar desarrollado 100% en Java usando NetBeans
+<br><br>
+<br>Pruebas Unitarias:
+
+<br>Escribe pruebas unitarias para las funciones y módulos principales para asegurarte de que funcionan correctamente.
+
+
+<br>Pruebas de Integración:
+
+<br>Asegúrate de que todos los componentes funcionen bien juntos.
+
+
+<br>Pruebas de Usuario:
+
+<br>Realiza pruebas con usuarios finales para obtener retroalimentación y realizar mejoras.
+
+
+<br><br><br>
+<br>Comenta tu código y proporciona una documentación que explique las funciones y módulos.
+<br><br>
+<br>Documentación de Usuario: Crea una guía para el usuario final sobre cómo usar la aplicación.
+<br><br>Una presentación de 10 minutos que resuma el proyecto y sus resultados.<br>
+<br>Resumen del Proyecto: Incluye una descripción general del proyecto, su propósito y las funcionalidades principales.
+<br>Demostración: Muestra capturas de pantalla o una demo en vivo de la aplicación.
+<br>Resultados y Conclusiones: Discute los resultados obtenidos y cualquier desafío enfrentado.
+<br><br>
+<br>Cumplimiento de requisitos: El proyecto debe cumplir con todos los requisitos especificados.
+<br>Calidad del código: El código debe ser seguro, tolerante a fallos y bien documentado.
+<br>Manejo del proyecto: Los estudiantes deben demostrar una buena capacidad de planificación, diseño, implementación y documentación.
+]]></description><link>repaticion-de-temas\cs-proyecto-2doparcial.html</link><guid isPermaLink="false">repaticion de temas/CS-Proyecto-2doParcial.md</guid><pubDate>Fri, 28 Jun 2024 00:42:50 GMT</pubDate></item></channel></rss>
