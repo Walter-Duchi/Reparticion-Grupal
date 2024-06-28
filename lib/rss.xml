@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apuntes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Apuntes</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 28 Jun 2024 01:10:15 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 28 Jun 2024 01:10:15 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Integrantes]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apuntes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Apuntes</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 28 Jun 2024 01:20:33 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 28 Jun 2024 01:20:33 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Integrantes]]></title><description><![CDATA[ 
  <br><br>
 <br>Duchi Rivera Walter Alejandro 
 <br>Sánchez Albarracín Luccy Verónica 
@@ -65,4 +65,4 @@
 <br>Cumplimiento de requisitos: El proyecto debe cumplir con todos los requisitos especificados.
 <br>Calidad del código: El código debe ser seguro, tolerante a fallos y bien documentado.
 <br>Manejo del proyecto: Los estudiantes deben demostrar una buena capacidad de planificación, diseño, implementación y documentación.
-]]></description><link>repaticion de temas\CS-Proyecto-2doParcial.html</link><guid isPermaLink="false">repaticion de temas/CS-Proyecto-2doParcial.md</guid><pubDate>Fri, 28 Jun 2024 01:04:42 GMT</pubDate></item></channel></rss>
+]]></description><link>repaticion\CS-Proyecto-2doParcial.html</link><guid isPermaLink="false">repaticion/CS-Proyecto-2doParcial.md</guid><pubDate>Fri, 28 Jun 2024 01:04:42 GMT</pubDate></item></channel></rss>
