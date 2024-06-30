@@ -80,7 +80,7 @@ ul li {
 
 /* Negritas */
 strong {
-  color: lightslategray; /* Color dorado para el texto en negrita */
+  color: lightseagreen; /* Color dorado para el texto en negrita */
 }
 
 /* Párrafos */
@@ -88,5 +88,10 @@ p {
   margin-bottom: 0.5em; /* Ajuste el espacio entre párrafos según sea necesario */
 }
 
-/* Otros elementos */
-/* Define el tamaño de letra para otros elementos según sea necesario */
+/* Imágenes */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto; /* Centrar la imagen */
+}
