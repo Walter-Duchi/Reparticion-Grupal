@@ -9,44 +9,268 @@
 </head>
 
 <body>
+    <!-- directives:[] -->
     <div id="content">
-        <h1 id="integrantes">Integrantes</h1>
-        <ol>
-            <li>Duchi Rivera Walter Alejandro </li>
-            <li>Sánchez Albarracín Luccy Verónica </li>
-            <li>Celdo Crespo Jonnathan David </li>
-        </ol>
         <h1 id="tema">Tema</h1>
-        <p>Una aplicación de gestión de proyectos que permita a los usuarios organizar y realizar proyectos</p>
-        <h1 id="fase-1">Fase 1</h1>
-        <h2 id="documentación-de-diseño">Documentación de diseño</h2>
+        <p>• Una aplicación de comercio electrónico que permita a los usuarios comprar y vender productos.</p>
+        <h1 id="cronograma-de-las-fases">Cronograma de las Fases</h1>
+        <p>![[Pasted image 20240630112621.png]]</p>
+        <h1 id="fase-1-documentación-de-diseño">Fase 1: Documentación de Diseño</h1>
+        <p><strong>Objetivo:</strong> Documentar el diseño de una aplicación de comercio electrónico que permita a los
+            usuarios comprar y vender productos.</p>
         <ol>
-            <li>Diagrama de Arquitectura: Diseña un diagrama de la arquitectura de la aplicación que incluya los
-                componentes
-                principales como la base de datos, lógica de negocio, y la interfaz de usuario.</li>
-            <li>MVC: Utiliza el patrón de diseño Modelo-Vista-Controlador (MVC) para organizar tu código.</li>
-            <li><strong>Diseño de la Arquitectura</strong>: Incluye diagramas UML y explicaciones detalladas de los
-                componentes.</li>
+            <li><strong>Duchi Rivera Walter Alejandro</strong>:<ul>
+                    <li><strong>Responsabilidades</strong>:<ul>
+                            <li>Coordinar las actividades del equipo y asegurar que el proyecto avance según el
+                                cronograma.</li>
+                            <li>Diseñar la base de datos y las relaciones entre las tablas.</li>
+                            <li>Crear diagramas ER (Entidad-Relación) para la base de datos.</li>
+                            <li>Configurar y gestionar la base de datos en MySQL.</li>
+                            <li>Documentar las estructuras de la base de datos.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Tareas Específicas</strong>:<ul>
+                            <li><strong>Diseñar y crear el diagrama de arquitectura</strong>:<ul>
+                                    <li>Incluir las entidades principales (Usuarios, Productos, Órdenes) y sus
+                                        relaciones.</li>
+                                    <li>Utilizar herramientas como Lucidchart o draw.io para la creación del diagrama.
+                                    </li>
+                                    <li>Asegurarse de que las relaciones reflejen correctamente las necesidades del
+                                        negocio.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Configurar y crear las tablas en MySQL</strong>:<ul>
+                                    <li>Utilizar sentencias SQL para crear las tablas (<code>Usuarios</code>,
+                                        <code>Productos</code>, <code>Órdenes</code>, <code>DetallesOrden</code>).
+                                    </li>
+                                    <li>Definir adecuadamente los tipos de datos, claves primarias y foráneas según el
+                                        diseño ER.</li>
+                                    <li>Asegurar que las tablas estén optimizadas para rendimiento y escalabilidad.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Asegurar las relaciones y la integridad referencial en la base de
+                                    datos</strong>:<ul>
+                                    <li>Implementar restricciones de clave foránea para mantener la integridad de los
+                                        datos.</li>
+                                    <li>Realizar pruebas de inserción, actualización y eliminación para verificar la
+                                        consistencia de las relaciones.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Documentar la estructura final de la base de datos</strong>:<ul>
+                                    <li>Preparar un documento detallado que describa cada tabla, sus campos, relaciones
+                                        y restricciones.</li>
+                                    <li>Incluir diagramas visuales y descripciones textuales para facilitar la
+                                        comprensión y mantenimiento futuro.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
         </ol>
-        <h1 id="fase-2">Fase 2</h1>
-        <h2 id="herramientas-y-tecnologías">Herramientas y Tecnologías</h2>
+        <h4 id="patrón-mvc-modelo-vista-controlador">Patrón MVC (Modelo-Vista-Controlador)</h4>
+        <ol start="2">
+            <li><strong>Sánchez Albarracín Luccy Verónica</strong>:<ul>
+                    <li><strong>Responsabilidades</strong>:<ul>
+                            <li>Diseñar y desarrollar la lógica de negocio de la aplicación.</li>
+                            <li>Crear y mantener los diagramas UML (clases, secuencia y casos de uso).</li>
+                            <li>Implementar las clases y métodos principales del modelo.</li>
+                            <li>Asegurar que la lógica de negocio cumpla con los requisitos funcionales.</li>
+                            <li>Documentar la lógica de negocio y sus interacciones.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Tareas Específicas</strong>:<ul>
+                            <li><strong>Diseñar la lógica de negocio y los componentes principales de la
+                                    aplicación</strong>:<ul>
+                                    <li>Identificar las operaciones clave del sistema (registro, autenticación, gestión
+                                        de productos, proceso de compra).</li>
+                                    <li>Utilizar diagramas de actividad para visualizar los flujos de trabajo de cada
+                                        proceso.</li>
+                                    <li>Definir las clases y métodos necesarios para cada entidad (Usuario, Producto,
+                                        Orden).</li>
+                                </ul>
+                            </li>
+                            <li><strong>Crear un diagrama de clases detallado</strong>:<ul>
+                                    <li>Incluir todas las entidades y sus atributos relevantes.</li>
+                                    <li>Especificar los métodos y relaciones entre clases de manera clara y precisa.
+                                    </li>
+                                    <li>Utilizar herramientas UML como Visual Paradigm o Astah para la creación y
+                                        documentación del diagrama.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Elaborar diagramas de secuencia</strong>:<ul>
+                                    <li>Representar los escenarios clave de interacción entre objetos.</li>
+                                    <li>Incluir detalles sobre la comunicación entre las clases de negocio y las
+                                        entidades de datos.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Definir casos de uso específicos y actores</strong>:<ul>
+                                    <li>Identificar los roles de usuario (comprador, vendedor, administrador).</li>
+                                    <li>Detallar las acciones que cada actor puede realizar (registrar, buscar
+                                        productos, realizar pedidos).</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <h4 id="creación-de-diagramas-uml">Creación de Diagramas UML</h4>
+        <ol start="3">
+            <li><strong>Celdo Crespo Jonnathan David</strong>:<ul>
+                    <li><strong>Responsabilidades</strong>:<ul>
+                            <li>Diseñar y desarrollar la interfaz de usuario (UI) de la aplicación.</li>
+                            <li>Crear diagramas de la interfaz de usuario y sus componentes.</li>
+                            <li>Implementar los controladores que manejen la interacción entre la UI y la lógica de
+                                negocio.</li>
+                            <li>Asegurar que la UI sea intuitiva y fácil de usar.</li>
+                            <li>Documentar las pantallas de la UI y su funcionalidad.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Tareas Específicas</strong>:<ul>
+                            <li><strong>Diseñar la interfaz de usuario y sus componentes principales</strong>:<ul>
+                                    <li>Utilizar herramientas de diseño como Figma, Adobe XD, Sketch, sino puede hacerlo
+                                        en una hoja de papel para crear mockups de las pantallas.</li>
+                                    <li>Incluir todas las pantallas requeridas (Registro, Login, Catálogo de Productos,
+                                        Detalle del Producto, Carrito de Compras, Perfil de Usuario).</li>
+                                    <li>Asegurarse de que el diseño sea coherente con la identidad visual de la marca y
+                                        las mejores prácticas de usabilidad.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Identificar las pantallas necesarias y crear diagramas detallados de la interfaz
+                                    de usuario</strong>:<ul>
+                                    <li>Describir cada pantalla en términos de diseño visual, interacciones y flujos de
+                                        usuario.</li>
+                                    <li>Especificar cómo cada pantalla se conecta con las funcionalidades de la lógica
+                                        de negocio.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Implementar controladores específicos para manejar las interacciones entre la UI
+                                    y la lógica de negocio</strong>:<ul>
+                                    <li>Desarrollar scripts o clases que gestionen eventos y llamadas a la lógica de
+                                        negocio desde la interfaz.</li>
+                                    <li>Validar datos de entrada y salida para garantizar la integridad y seguridad de
+                                        la aplicación.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Documentar exhaustivamente cada pantalla de la UI y sus funcionalidades
+                                    específicas</strong>:<ul>
+                                    <li>Preparar descripciones detalladas de cada elemento interactivo (botones,
+                                        formularios, menús).</li>
+                                    <li>Incluir capturas de pantalla o prototipos interactivos para ilustrar el
+                                        comportamiento esperado.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <h4 id="documentación-detallada">Documentación Detallada</h4>
         <ul>
-            <li>Bases de Datos: Usa JDBC para conectar tu aplicación Java a la base de datos.</li>
+            <li><strong>Responsabilidades Generales</strong>:<ul>
+                    <li>Todos los miembros del equipo (Duchi Rivera Walter Alejandro, Sánchez Albarracín Luccy Verónica,
+                        y Celdo Crespo Jonnathan David) deben colaborar en la documentación final del diseño.</li>
+                    <li>Cada uno contribuirá con su área específica: la estructura de la base de datos, la lógica de
+                        negocio y los diagramas UML, y la interfaz de usuario y sus controladores.</li>
+                </ul>
+            </li>
         </ul>
+        <h1 id="fase-2-creación-de-la-base-de-datos">Fase 2: Creación de la Base de Datos</h1>
+        <h3 id="duchi-rivera-walter-alejandro"><strong>Duchi Rivera Walter Alejandro</strong>:</h3>
+        <ul>
+            <li><strong>Responsabilidades</strong>:<ul>
+                    <li>Coordinar y supervisar la implementación del diseño en la base de datos.</li>
+                    <li>Crear las tablas en MySQL según el diseño ER proporcionado.</li>
+                    <li>Asegurar la integridad y las relaciones de las tablas en la base de datos.</li>
+                    <li>Documentar la estructura final de la base de datos.</li>
+                </ul>
+            </li>
+            <li><strong>Tareas</strong>:<ul>
+                    <li>Configurar y crear las tablas en MySQL: <code>Usuarios</code>, <code>Productos</code>,
+                        <code>Órdenes</code>, <code>DetallesOrden</code>.
+                    </li>
+                    <li>Asegurar las relaciones y la integridad referencial.</li>
+                    <li>Documentar la estructura final de la base de datos.</li>
+                </ul>
+            </li>
+        </ul>
+        <h3 id="sánchez-albarracín-luccy-verónica"><strong>Sánchez Albarracín Luccy Verónica</strong>:</h3>
+        <ul>
+            <li><strong>Responsabilidades</strong>:<ul>
+                    <li>Implementar las clases principales (<code>Usuario</code>, <code>Producto</code>,
+                        <code>Orden</code>) en Java.
+                    </li>
+                    <li>Desarrollar la lógica de negocio para CRUD (Create, Read, Update, Delete) de usuarios, productos
+                        y órdenes.</li>
+                    <li>Utilizar JDBC para interactuar con la base de datos y asegurar la consistencia de los datos.
+                    </li>
+                    <li>Realizar pruebas unitarias para validar la lógica de negocio.</li>
+                </ul>
+            </li>
+            <li><strong>Tareas</strong>:<ul>
+                    <li>Implementar las clases Java (<code>Usuario</code>, <code>Producto</code>, <code>Orden</code>)
+                        con métodos para CRUD.</li>
+                    <li>Utilizar JDBC para conectar y gestionar datos desde y hacia la base de datos.</li>
+                    <li>Desarrollar pruebas unitarias para validar la funcionalidad de las clases.</li>
+                </ul>
+            </li>
+        </ul>
+        <h3 id="celdo-crespo-jonnathan-david"><strong>Celdo Crespo Jonnathan David</strong>:</h3>
+        <ul>
+            <li><strong>Responsabilidades</strong>:<ul>
+                    <li>Implementar la interfaz de usuario en Java Swing o JavaFX según el diseño proporcionado.</li>
+                    <li>Desarrollar los controladores para manejar la interacción entre la interfaz de usuario y la
+                        lógica de negocio.</li>
+                    <li>Integrar las funciones de registro, inicio de sesión, gestión de productos, carrito de compras y
+                        perfil de usuario.</li>
+                    <li>Realizar pruebas de integración para asegurar la funcionalidad completa de la interfaz de
+                        usuario.</li>
+                </ul>
+            </li>
+            <li><strong>Tareas</strong>:<ul>
+                    <li>Diseñar y desarrollar la interfaz de usuario utilizando Java Swing o JavaFX.</li>
+                    <li>Implementar controladores para manejar las acciones del usuario y la comunicación con la lógica
+                        de negocio.</li>
+                    <li>Realizar pruebas de integración para asegurar que la interfaz de usuario funcione correctamente
+                        con la lógica de negocio.</li>
+                </ul>
+            </li>
+        </ul>
+        <h3 id="consideraciones-finales">Consideraciones Finales</h3>
+        <ul>
+            <li><strong>Documentación y Revisión</strong>:<ul>
+                    <li>Todos los miembros del equipo deben revisar y documentar su trabajo.</li>
+                    <li>Walter Duchi supervisará la integración y asegurará que todos los componentes funcionen
+                        correctamente antes de pasar a la fase de pruebas.</li>
+                </ul>
+            </li>
+        </ul>
+        <h1 id="fase-3-desarrollo-de-aplicativo-web-en-java">Fase 3: Desarrollo de Aplicativo Web en Java</h1>
         <h2 id="desarrollo-del-código">Desarrollo del Código</h2>
         <ul>
+            <li>La aplicación web debe estar desarrollada 100% en Java usando NetBeans.</li>
             <li>La aplicación debe permitir a los usuarios registrarse y crear cuentas.<ul>
-                    <li>Usa clases para manejar usuarios, sesiones y perfiles.</li>
-                    <li>Asegúrate de implementar validaciones y manejo seguro de contraseñas.</li>
+                    <li>Crea una clase <code>Usuario</code> con atributos como nombre, email, contraseña.</li>
+                    <li>Usa validaciones para asegurar que los datos ingresados sean correctos.</li>
+                    <li>Implementa el almacenamiento seguro de contraseñas (por ejemplo, usando hashing).</li>
                 </ul>
             </li>
-            <li>Los usuarios deben poder iniciar sesión y ver su perfil.</li>
-            <li>Los usuarios deben poder publicar mensajes en un foro.<ul>
-                    <li>Crea clases para los mensajes y foros.</li>
-                    <li>Implementa métodos para crear, leer y mostrar mensajes.</li>
+            <li>Los usuarios deben poder iniciar sesión y ver su perfil.<ul>
+                    <li>Crea clases para manejar las sesiones de usuario y sus perfiles.</li>
+                    <li>Implementa métodos para actualizar y mostrar los perfiles de los usuarios.</li>
                 </ul>
             </li>
-            <li>Los usuarios deben poder ver los mensajes publicados por otros usuarios.</li>
+            <li>Los usuarios deben poder publicar y gestionar productos para vender.<ul>
+                    <li>Crea clases para los productos y las categorías.</li>
+                    <li>Implementa CRUD (Create, Read, Update, Delete) para los productos.</li>
+                </ul>
+            </li>
+            <li>Los usuarios deben poder buscar y comprar productos.<ul>
+                    <li>Implementa funciones de búsqueda y filtrado de productos.</li>
+                    <li>Crea procesos para añadir productos al carrito y realizar compras.</li>
+                </ul>
+            </li>
             <li>Se debe aplicar los conceptos de variables, tipos de datos, estructuras de control, funciones y módulos.
                 <ul>
                     <li>Utiliza estructuras de control (if, for, while) donde sea necesario.</li>
@@ -57,18 +281,15 @@
                     <li><strong>Validación de Datos</strong>: Asegúrate de validar todos los inputs de los usuarios.
                     </li>
                     <li><strong>Manejo de Excepciones</strong>: Implementa un manejo adecuado de excepciones para evitar
-                        que
-                        la aplicación se caiga.</li>
+                        que la aplicación se caiga.</li>
                 </ul>
             </li>
-            <li>La aplicación web debe estar desarrollado 100% en Java usando NetBeans</li>
         </ul>
-        <h2 id="pruebas">Pruebas</h2>
+        <h1 id="fase-4-prueba-finales">Fase 4: Prueba Finales</h1>
         <ol>
             <li><strong>Pruebas Unitarias</strong>:<ul>
                     <li>Escribe pruebas unitarias para las funciones y módulos principales para asegurarte de que
-                        funcionan
-                        correctamente.</li>
+                        funcionan correctamente.</li>
                 </ul>
             </li>
             <li><strong>Pruebas de Integración</strong>:<ul>
@@ -80,23 +301,36 @@
                 </ul>
             </li>
         </ol>
-        <h1 id="fase-3">Fase 3</h1>
+        <h1 id="fase-5-manual-de-código-usuario-y-resultados">Fase 5: Manual de código, usuario y resultados</h1>
         <h2 id="documentación-de-código">Documentación de código</h2>
         <ul>
             <li>Comenta tu código y proporciona una documentación que explique las funciones y módulos.</li>
         </ul>
         <h2 id="documentación-de-usuario">Documentación de usuario</h2>
+        <p>Prepara una guía de usuario que incluya:</p>
         <ul>
-            <li>Documentación de Usuario: Crea una guía para el usuario final sobre cómo usar la aplicación.</li>
+            <li>Cómo registrarse e iniciar sesión.</li>
+            <li>Cómo publicar y gestionar productos.</li>
+            <li>Cómo buscar y comprar productos.</li>
+            <li>Cómo actualizar el perfil.</li>
         </ul>
         <h2 id="powerpoint">PowerPoint</h2>
         <p>Una presentación de 10 minutos que resuma el proyecto y sus resultados.</p>
         <ul>
-            <li><strong>Resumen del Proyecto</strong>: Incluye una descripción general del proyecto, su propósito y las
-                funcionalidades principales.</li>
-            <li><strong>Demostración</strong>: Muestra capturas de pantalla o una demo en vivo de la aplicación.</li>
-            <li><strong>Resultados y Conclusiones</strong>: Discute los resultados obtenidos y cualquier desafío
-                enfrentado.
+            <li><strong>Resumen del Proyecto</strong>:<ul>
+                    <li>Descripción general del proyecto.</li>
+                    <li>Propósito y funcionalidades principales.</li>
+                </ul>
+            </li>
+            <li><strong>Demostración</strong>:<ul>
+                    <li>Capturas de pantalla de la aplicación o una demo en vivo.</li>
+                    <li>Explica cómo funciona cada parte de la aplicación.</li>
+                </ul>
+            </li>
+            <li><strong>Resultados y Conclusiones</strong>:<ul>
+                    <li>Discute los resultados obtenidos.</li>
+                    <li>Menciona los desafíos enfrentados y cómo se resolvieron.</li>
+                </ul>
             </li>
         </ul>
         <h1 id="puntos-a-calificar">Puntos a calificar</h1>
